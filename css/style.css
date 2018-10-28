@@ -1,0 +1,122 @@
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 80px;
+}
+
+a:link {
+    color: grey;
+  }
+  a:visited {
+    color: grey;
+  }
+
+#main-info{
+  padding-top: 80px;
+}
+
+#nbar-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 35vw;
+  justify-content: space-around;
+}
+
+nav li:hover {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  float: left;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+  color: grey;
+  top: 0;
+}
+
+h1.hook {
+  text-align: center;
+  font-size: 60px;
+}
+
+img.head-logo {
+  height: 50px;
+  width: 50px;
+  filter: invert(60%);
+}
+
+img.page-top {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 400px;
+}
+
+#email-input {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+#video {
+  display: block;
+  margin: auto;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+}
+
+h2.emailh2 {
+  font-size: 40px;
+}
+
+#purchase {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#blue, #red, #yellow, #black {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+  margin: 5px;
+  height: 330px;
+}
+
+.chuck-pics {
+  width: 100px;
+  height: auto;
+}
+
+.select-button {
+  padding: 10px 30px;
+  margin-bottom: 5px;
+  margin-top:auto;
+}
+
+@media screen and (max-width: 600px) {
+  #top-image {
+    height: 50%;
+    width: 50%;
+  }
+}
